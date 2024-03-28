@@ -1,0 +1,164 @@
+@media screen and (max-width: 991px) {
+
+    .primary-menu {
+        display: none;
+    }
+
+    .secondary-menu {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .plans {
+        gap: 50px;
+        height: max-content;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .plan-box {
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 18px;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        padding: 30px;
+    }
+
+    .why {
+        display: none;
+    }
+
+    .why-tab {
+        display: block;
+    }
+
+    .why-tab {
+        width: 550px;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .why-container {
+        padding: 80px 20px 80px 20px;
+    }
+
+    .why-tab img {
+        width: 550px;
+    }
+
+    .why-tab h1 {
+        font-family: var(--primary-font);
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 50px;
+        padding-top: 40px;
+    }
+
+    .why-tab p {
+        font-weight: 400;
+        font-size: 0.9rem;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        ;
+        line-height: 30px;
+    }
+
+    .key img {
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.51);
+
+    }
+
+    .pro {
+        padding: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .key-img {
+        gap: 40px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .key-feature-5 {
+        display: none;
+    }
+
+    .hosting .option1 {
+        margin: 20px;
+    }
+
+    .help {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    body {
+        width: min-content;
+    }
+
+    .hero .hero-text {
+        width: -webkit-fill-available;
+        line-height: 40px;
+    }
+
+    .page-nav {
+        width: -webkit-fill-available;
+        justify-content: center;
+    }
+
+    .feature-box1 {
+        width: max-content;
+        padding: 40px;
+    }
+
+    .why-tab {
+        width: 600px;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .why-container {
+        padding: 80px 20px 80px 20px;
+    }
+
+    .why-tab img {
+        width: 600px;
+    }
+
+    .pro {
+        padding: 10px;
+    }
+
+    .key img {
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.51);
+    }
+
+    .hosting .option1 {
+        background-color: lightgray;
+        border-radius: 20px;
+        margin: 20px;
+        height: max-content;
+    }
+
+    .hosting .option2 {
+        background-color: lightgray;
+        border-radius: 20px;
+        margin: 20px;
+        height: max-content;
+    }
+
+    .help {
+        flex-direction: column-reverse;
+    }
+
+}
