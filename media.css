@@ -161,4 +161,72 @@
         flex-direction: column-reverse;
     }
 
+.plan-box {
+        width: 500px;
+        height: fit-content;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.323);
+
+    }
+
+    .plan-box h1 {
+        font-family: var(--primary-font);
+        font-weight: 600;
+        font-size: 2.2rem;
+        line-height: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .plan-box h2 {
+        font-family: var(--primary-font);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 40px;
+    }
+    
+    .plan-box h3 {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    
+    .plan-box li {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        list-style: none;
+    }
+    
+    .plan-box .offer {
+        background-color: rgb(245, 235, 169);
+        font-family: var(--primary-font);
+        font-weight: 500;
+        padding: 2px 5px;
+        font-size: 1.5rem;
+        list-style: none;
+    }
+    
+    .plan-box .off {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        padding: 2px 15px;
+        font-size: 1.5rem;
+        text-decoration: line-through;
+        list-style: none;
+    }
+    
+    .plan-box .price {
+        align-items: baseline;
+    }
+    
+    .plan-box button {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    
 }
